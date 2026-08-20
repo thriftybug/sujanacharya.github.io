@@ -20,10 +20,11 @@ const responses = {
 	current: {
 		status: 200,
 		body: {
-			role: "Java Developer Trainee",
-			since: "August 2024",
-			building: "Microservices-based Stripe payment integration system",
-			responsibilities: ["API design", "Database integration", "Fault tolerance", "Agile delivery"]
+			role: "Java Backend Developer",
+			since: "January 2025",
+			primaryProject: "Stripe Payment Integration System",
+			secondaryProject: "JobOps",
+			responsibilities: ["API design", "Database integration", "Fault tolerance", "Workload automation tooling"]
 		}
 	},
 	contact: {
