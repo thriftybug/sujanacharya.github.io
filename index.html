@@ -79,25 +79,27 @@
 					<div class="projects-grid">
 						<article class="project-card featured">
 							<div class="project-media code-preview" aria-hidden="true">
-								<div class="code-line"><span>job.search()</span><em>12 boards</em></div>
-								<div class="code-line"><span>score.fit()</span><em>ATS + role match</em></div>
-								<div class="code-line"><span>track.pipeline()</span><em>Kanban status</em></div>
+								<div class="code-line"><span>sync.jobs()</span><em>HWA REST APIs</em></div>
+								<div class="code-line"><span>cache.metadata()</span><em>H2 + JPA</em></div>
+								<div class="code-line"><span>export.report()</span><em>Excel + dependency flow</em></div>
 							</div>
 							<div class="project-body">
 								<div class="project-title-row">
 									<h3>JobOps</h3>
-									<span>Career tooling</span>
+									<span>Workload automation</span>
 								</div>
 								<p>
-									A job-search operations project that centralizes job discovery, CV tailoring,
-									fit scoring, and application tracking so the repetitive workflow stays organized
-									while the final decisions remain human-led.
+									A Spring Boot backend for IBM/HCL Workload Automation administration. It syncs
+									job definitions, job streams, run cycle groups, and workstation metadata into a
+									local H2 cache, then generates filtered Excel reports and dependency-flow exports
+									without repeatedly hitting upstream APIs.
 								</p>
 								<ul class="tags">
-									<li>Automation</li>
-									<li>Workflow</li>
-									<li>Job tracking</li>
-									<li>Resume tooling</li>
+									<li>Java 21</li>
+									<li>Spring Boot</li>
+									<li>Spring Data JPA</li>
+									<li>Apache POI</li>
+									<li>HWA REST APIs</li>
 								</ul>
 							</div>
 						</article>
