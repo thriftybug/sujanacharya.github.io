@@ -53,17 +53,22 @@
 							<strong>PortfolioController.java</strong>
 						</div>
 						<div class="console-body">
-							<label for="endpoint">GET /portfolio/</label>
-							<div class="request-row">
-								<select id="endpoint">
-									<option value="profile">profile</option>
-									<option value="stack">stack</option>
-									<option value="current">currentWork</option>
-									<option value="contact">contact</option>
-								</select>
-								<button id="execute-request" type="button">Execute</button>
-							</div>
-							<pre id="console-output" aria-live="polite"></pre>
+							<p class="console-label">static portfolio payload</p>
+							<pre>{
+  "name": "Sujan Acharya",
+  "role": "Java Backend Developer",
+  "current": {
+    "primaryProject": "Stripe Payment Integration",
+    "secondaryProject": "JobOps"
+  },
+  "stack": [
+    "Java",
+    "Spring Boot",
+    "Microservices",
+    "MySQL",
+    "PostgreSQL"
+  ]
+}</pre>
 						</div>
 					</aside>
 				</section>
