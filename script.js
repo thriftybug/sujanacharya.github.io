@@ -52,9 +52,8 @@ function renderResponse(key) {
 }
 
 if (endpoint && executeButton && output) {
-	renderResponse(endpoint.value);
+	output.textContent = "$ Select an endpoint and hit Execute...";
 	executeButton.addEventListener("click", () => renderResponse(endpoint.value));
-	endpoint.addEventListener("change", () => renderResponse(endpoint.value));
 }
 
 const lightbox = document.getElementById("lightbox");
