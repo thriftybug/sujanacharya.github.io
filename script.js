@@ -30,7 +30,7 @@ const responses = {
 		status: 202,
 		body: {
 			email: "sujanjacharya123@gmail.com",
-			github: "github.com/thriftybug",
+			github: "github.com/SujanAcharya06",
 			x: "x.com/Acharyasujan06"
 		}
 	}
